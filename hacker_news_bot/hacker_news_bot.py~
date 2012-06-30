@@ -1,0 +1,7 @@
+from generic_bot.generic_bot import GenericBot
+
+class HackerNewsBot(GenericBot):
+    def __init__(self, runnable, interval):
+        super(GenericBot, self).__init__(runnable, interval)
+
+    
